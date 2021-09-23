@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+body{
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #131E30;
+    margin-bottom: 20px;
+}
+.descricao{
+    text-align: center;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #131E30;
+    margin-bottom: 40px;
+}
+.contagem {
+    font-family: 'Mulish',sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #131E30;
+}
+.contagem-button{
+    cursor: pointer;
+    border-style: none;
+    background: #459275;
+    border-radius: 8px;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EFF5FF;
+    padding: 0 10px;
+}
+.secao-contagem{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #456392;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    min-width: 300px;
+    height: 410px;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    width: 120px;
+    border-radius: 50%;
+    border: 10px solid #ECF3FC;
+    margin-bottom: 30px; 
+}
+h2{
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #131E30;
+    margin-bottom: 10px;
+}
+.username {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #131E30;
+    margin-bottom: 75px;
+}
+.followers, .following{
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.following-button button{
+    border-style: none;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #EFF5FF;
+    text-transform: uppercase;
+}
+.Seguir {
+    background: #459275;
+}
+.Seguindo {
+    background:#97CEB9;
+}
